@@ -1,8 +1,8 @@
-numeric permition code
+### Numeric permition code
 
 Permition| Code
 :-------:|:----:
-Read     | 4
-Write    | 2
-Exec     | 1
+Read (R) | 4
+Write (W)| 2
+Exec (X) | 1
 None     | 0 

@@ -1,0 +1,12 @@
+Creating user with expiration date -> useradd <user name> -c "Guest" -m -e 26/12/2022
+"-e" -> expire date
+
+Change user info/parameters -> usermod <user name> <options>
+                                                   -e 30/12/2022
+                                                   -c "Special Guest"
+                                                   -s /bin/bash
+
+Password expiration -> passwd <user name> -e -> The user must change de password now.
+                    -> passwd <user name> - e 30/12/2022 -> The password will expire on the specified date.
+
+Check the registered users -> cat /etc/passwd

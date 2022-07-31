@@ -1,4 +1,4 @@
-### Numeric permition codes
+### Numeric permition codes:
 
 Permition| Code
 :-------:|:----:
@@ -9,4 +9,6 @@ None     | 0
 
 Changing permitions:
 
-`chmode <numeric code> <directory/file>`
+`chmod <numeric code> <directory/file>`
+example:
+`chmod 750 /scripts/`

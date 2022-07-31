@@ -1,0 +1,9 @@
+User creation with password-> useradd <user name> -c "Special Guest" -s /bin/bash -m -p $(openssl passwd -crypt <password>)
+"-p" -> add password it MUST BE encrypted
+"$(openssl passwd -crypt)"-> encrypts the password
+
+Script creation -> nano script_name.sh
+
+Authorize script execution -> chmod +x script_name.sh
+
+Script execution -> ./script_name.sh

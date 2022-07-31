@@ -1,0 +1,19 @@
+
+Create a new  user -> useradd <user name > -m -c "User full name or comments" -s /bin/bash  
+"-m" -> create a home directory.
+"-c" -> add a comments, example: "João da Silva" , "Guest". 
+"-s" -> indicates which shell the user will use, exemple: /bin/bash/
+
+Delete user -> userdel -f -r <user name>
+"-f" -> force exec
+"-r" -> remove user home directory and email account
+
+resiter/chance user password -> passwd <user name>
+
+change user shell -> chsh -s /bin/bash <user name>
+
+
+
+
+
+

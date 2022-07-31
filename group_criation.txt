@@ -1,0 +1,6 @@
+Creating groups -> groupadd <group name>
+
+Deleting groups -> groupdel <group name>
+
+Removing user from a specific group -> gpasswd -d <user name> <group name>
+

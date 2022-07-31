@@ -10,3 +10,7 @@ Example:
                 "r" -> read permitions.
                 "w" -> write permitions.
                 "x" -> execution permitions
+
+Change owner -> chown <user name>:<group name> <directory>
+Example: chown thomas:adm /scripts/
+

@@ -1,0 +1,4 @@
+Check system groups -> cat /etc/group
+
+Add user to group -> usermod -G <group names> <user name>
+"-G" -> remove user from previus groups and adds the user to the specified groups.

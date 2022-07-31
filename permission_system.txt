@@ -1,0 +1,12 @@
+Show information about files -> ls -l
+"-l"-> show detailed info 
+Example:
+-rwxrwxrwx 1 thomas thomas 128 Jul 31 15:15 README.md
+
+-rwxrwxrwx -> type of file and permitions, the first character shows what type of file it is: 
+                "-" -> it is a file
+                "d" -. it a directory
+           -> the next characters are divided into groups of three, the first group is related to the owner's permission, the second is the owner's group permissions, and the third is the permissions to others users.
+                "r" -> read permitions.
+                "w" -> write permitions.
+                "x" -> execution permitions

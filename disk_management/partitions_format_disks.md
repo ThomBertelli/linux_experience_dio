@@ -1,0 +1,10 @@
+List all disks and partitions:
+`lsblk`
+`fdisk -l` 
+
+Partition creation:
+`fdisk` -> `n` -> options
+
+Formatting
+`mkfs.<file system> <disk>`
+Example: `mkfs.ext4 /dev/sdb`

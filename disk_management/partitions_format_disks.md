@@ -14,3 +14,14 @@ Mounting
 `mount <disk > /mnt/<directory name>/`
 Example:
 `mount /dev/sdb /mnt/disk2/`
+
+Dismounting
+`umount /dev/sdb`
+
+Auto mount
+`nano /etc/fstab`
+
+<p> at the end of the file: 
+<disk> <destiny> <file system> defaults 0 0 
+</p>
+

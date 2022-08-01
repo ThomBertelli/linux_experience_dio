@@ -22,6 +22,7 @@ Auto mount
 `nano /etc/fstab`
 
 at the end of the file: 
-`<disk> <destiny> <file system> defaults 0 0`
+`<disk> <destiny> <file system> defaults 0 0`  
+Example: `/dev/sdb /disk2  ext4 defaults 0 0 `
 
 

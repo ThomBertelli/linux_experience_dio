@@ -10,16 +10,15 @@ Formatting:
 Example: `mkfs.ext4 /dev/sdb`
 
 Mounting:  
-*Inside mnt dir*  
-
+**Inside mnt dir**  
 `mount <disk > /mnt/<directory name>/`  
 Example:
 `mount /dev/sdb /mnt/disk2/`
 
-Dismounting
+Dismounting:
 `umount /dev/sdb`
 
-Auto mount
+Auto mount:
 `nano /etc/fstab`
 
 at the end of the file: 

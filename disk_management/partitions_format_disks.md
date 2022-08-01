@@ -21,7 +21,7 @@ Dismounting
 Auto mount
 `nano /etc/fstab`
 
-<p> at the end of the file: 
-<disk> <destiny> <file system> defaults 0 0 
-</p>
+at the end of the file: 
+`<disk> <destiny> <file system> defaults 0 0`
+
 
